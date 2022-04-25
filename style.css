@@ -6,7 +6,12 @@
 
 body{
     align-items: center;
-    background-color: beige;
+ background-image: url("./Images/background.jpg");
+}
+
+p{
+    font-family: Arial, sans-serif;
+    font-size: 1.1em;
 }
 
 .image img{
@@ -22,7 +27,8 @@ body{
    text-decoration: underline;
   padding-left: 60px;
   padding-top: 1em;
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
+  color: azure;
 }
 
 .list{
@@ -45,7 +51,6 @@ body{
 }
 
 .long-p p{
-    background-color: #fff;
     box-shadow: 4px 4px 10px #199a7a;
    padding: 2em;
     width: auto;
@@ -58,7 +63,6 @@ body{
 
 .table p {
 font-size: 1.5em;
-background-color: #fff;
     box-shadow: 1px 1px 10px #ebefee;
    padding: 2em;
     width: 700px;
@@ -92,12 +96,20 @@ font-size: 1.3rem;
 
 .last-p p{
    
-background-color: #fff;
-    box-shadow: 4px 4px 10px #ebefee;
+
+    box-shadow: 4px 4px 10px #9bb4ad;
    padding: 2em;
     width: auto;
 }
 
 .last-p a{
 font-size: 3em;
+}
+
+footer{
+    padding-left: 50px;
+    
+    text-align: center;
+    font-size: 1.8em;
+    padding-bottom: 2em;
 }

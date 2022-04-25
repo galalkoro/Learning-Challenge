@@ -7,6 +7,15 @@
 body{
     align-items: center;
  background-image: url("./Images/background.jpg");
+ font-style: italic;
+ width: 90%;
+ margin: auto;
+ padding: auto;
+
+}
+
+.head{
+    background-color: yellow;
 }
 
 p{
@@ -88,10 +97,23 @@ font-size: 1.3rem;
 .table table th{
     background-color: aqua;
     font-size: 2em;
+    text-transform: uppercase;
+}
+
+.table .or {
+    text-transform: capitalize !important;
 }
 
 .last-p{
     padding-left: 60px;
+}
+
+#good{
+    color: green;
+}
+
+#bad{
+    color: red;
 }
 
 .last-p p{

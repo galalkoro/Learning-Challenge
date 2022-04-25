@@ -1,1 +1,1 @@
-# Learning-Challenge
+# progressive-enhancement
